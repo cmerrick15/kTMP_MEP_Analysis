@@ -41,7 +41,13 @@ Load the raw Dryad data
 
 Repository Structure
 
-``` your-repo-name/ ├── data/ │ ├── processed/ │ └── raw/ ├── analysis/ │ ├── experiment1.m │ ├── experiment2.m │ └── experiment3.m ├── figures/ │ ├── figure4.py │ └── figure5.py └── README.md ``` 
+``` kTMP_MEP_Analysis/
+├── data/ 
+  ├── processed/
+  ├── raw/
+├── analysis/ │
+  ├── experiment1.m │
+  ├── experiment2.m │ └── experiment3.m ├── figures/ │ ├── figure4.py │ └── figure5.py └── README.md ``` 
 
 Calculate percent change from baseline for each:
 
