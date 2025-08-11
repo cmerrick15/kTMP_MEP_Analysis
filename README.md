@@ -70,18 +70,13 @@ These will be saved in the .../data/processed/ directory.
 **Step 3 — Generate Figures 4 and 5**  
 Run the Python script to load the .csv files saved in .../data/processed/ and generate the figures.
 
-Example (Python):
-
-Reproduce_eLife_Figures4_5.py
 This will:
 
-Load the processed .csv files
-Average across blocks for each subject for each condition and TMS protocol 
-
-Generate Figure 4 and Figure 5
+Load the processed .csv files  
+Average across blocks for each subject for each condition and TMS protocol   
+Generate Figure 4 and Figure 5  
 
 Save them as .png and .pdf in the figures/ directory
-
 
 
 Citation
