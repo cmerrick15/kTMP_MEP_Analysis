@@ -3,7 +3,7 @@ Here is a link to the paper: https://doi.org/10.7554/eLife.92088.2
 
 Overview
 Data source: Available from Dryad: https://datadryad.org/dataset/doi:10.5061/dryad.qz612jmsh  
-There are three experiments, each experiment has it's own raw data file and analysis script. The data files can be found at Dryad and the analysis script can be found here on github. 
+There are three experiments, each experiment has it's own raw data file and analysis script. The data files can be found at Dryad and the analysis script can be found under kTMP_MEP_Analysis/analysis.  
 
 Analysis scripts: Process raw data to calculate percent change from baseline for each TMS protocol, block, condition, and subject.
 
