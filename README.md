@@ -67,8 +67,8 @@ mep_percent_change_Exp3.csv
 
 These will be saved in the .../data/processed/ directory.
 
-**Step 3 — Generate Figures 4 and 5**
-Run the Python script to load the .csv files and generate the figures.
+**Step 3 — Generate Figures 4 and 5**  
+Run the Python script to load the .csv files saved in .../data/processed/ and generate the figures.
 
 Example (Python):
 
