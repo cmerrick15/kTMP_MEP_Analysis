@@ -3,31 +3,24 @@ Here is a link to the paper: https://doi.org/10.7554/eLife.92088.2
 
 Overview
 Data source: Available from Dryad: https://doi.org/10.7554/elife.92088.2
-There are three experiments, each experiment has it's own raw data file and analysis script.
+There are three experiments, each experiment has it's own raw data file and analysis script. The data files can be found at Dryad and the analysis script can be found here on github. 
 
 Analysis scripts: Process raw data to calculate percent change from baseline for each TMS protocol, block, condition, and subject.
 
-
 Plotting scripts: Use the processed .csv files to reproduce Figures 4 and 5 as presented in the paper.
 
-Software Requirements
-Python
+**Software Requirements**
+PYTHON 
 Python version: 3.8.8
 
 Required packages:
 
-bash
-Copy
-Edit
 pandas==1.2.4  
 numpy==1.20.1  
 matplotlib==3.3.4  
 scipy==1.6.2
-Install all required packages via pip:
 
-bash
-Copy
-Edit
+Install all required packages via pip:
 pip install pandas==1.2.4 numpy==1.20.1 matplotlib==3.3.4 scipy==1.6.2
 
 MATLAB
@@ -44,6 +37,22 @@ Step 2 — Run the Analysis Scripts
 The analysis scripts will:
 
 Load the raw Dryad data
+* You will need to change the CD to the folder containing Dryad data files*
+
+Repository Structure
+
+├── analysis/                # MATLAB scripts to process raw data
+│   ├── Exp1_analysis_script_final.m
+│   ├── Exp2_analysis_script_final.m
+│   ├── Exp3_analysis_script_final.m
+├── plotting/
+│   ├── make_figures_4_5.py  # Python script to generate figures
+├── data/
+│   ├── raw/                 # Place Dryad raw data here
+│   ├── processed/           # Processed .csv output files
+├── figures/                 # Generated figures (output)
+└── README.md
+
 
 Calculate percent change from baseline for each:
 
@@ -57,31 +66,19 @@ Subject
 
 Save the output as .csv files for each experiment
 
-Example (MATLAB):
-
-matlab
-Copy
-Edit
-% From the 'analysis' directory
-run('process_experiment1.m')
-run('process_experiment2.m')
-
 Output:
 mep_percent_change_Exp1.csv
 mep_percent_change_Exp2.csv
 mep_percent_change_Exp3.csv
 
-These will be saved in the data/processed/ directory.
+These will be saved in the .../data/processed/ directory.
 
 Step 3 — Generate Figures 4 and 5
 Run the Python script to load the .csv files and generate the figures.
 
 Example (Python):
 
-bash
-Copy
-Edit
-python plotting/Reproduce_eLife_Figures4_5.py
+Reproduce_eLife_Figures4_5.py
 This will:
 
 Load the processed .csv files
@@ -91,22 +88,12 @@ Generate Figure 4 and Figure 5
 
 Save them as .png and .pdf in the figures/ directory
 
-Repository Structure
-bash
-Copy
-Edit
-├── analysis/                # MATLAB scripts to process raw data
-│   ├── process_experiment1.m
-│   ├── process_experiment2.m
-├── plotting/
-│   ├── make_figures_4_5.py  # Python script to generate figures
-├── data/
-│   ├── raw/                 # Place Dryad raw data here
-│   ├── processed/           # Processed .csv output files
-├── figures/                 # Generated figures (output)
-└── README.md
+
+
 Citation
 If you use this code, please cite our paper:
 
-[Authors], Title, eLife, Year, DOI: [link]
+Labruna Ludovica, Merrick Christina, Peterchev Angel V, Inglis Ben, Ivry Richard B, Sheltraw Daniel (2024) Kilohertz Transcranial Magnetic Perturbation (kTMP): A New Non-invasive Method to Modulate Cortical Excitability eLife 13:RP92088
+
+https://doi.org/10.7554/eLife.92088.2
 
