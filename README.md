@@ -23,21 +23,10 @@ scipy==1.6.2
 Install all required packages via pip:
 pip install pandas==1.2.4 numpy==1.20.1 matplotlib==3.3.4 scipy==1.6.2
 
-MATLAB
+MATLAB  
 Version: R2018a
 
 Required to run the data preprocessing scripts for each experiment
-
-Step 1 — Download the Data
-Download the raw dataset from Dryad: https://doi.org/10.7554/elife.92088.2
-
-Extract the contents into a folder called data/raw within this repository.
-
-Step 2 — Run the Analysis Scripts
-The analysis scripts will:
-
-Load the raw Dryad data
-* download the Dryad files to the data/raw datafolder *
 
 Repository Structure
 
@@ -54,14 +43,18 @@ Repository Structure
 └── README.md
 ``` 
 
+Step 1 — Download the Data
+Download the raw dataset from Dryad: https://doi.org/10.7554/elife.92088.2
+
+Extract the contents into a folder called data/raw within this repository.
+
+Step 2 — Run the Analysis Scripts
+The analysis scripts will:
+
 Calculate percent change from baseline for each:
-
 TMS protocol 
-
 Block
-
 Condition
-
 Subject
 
 Save the output as .csv files for each experiment
