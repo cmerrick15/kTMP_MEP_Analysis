@@ -41,17 +41,17 @@ Load the raw Dryad data
 
 Repository Structure
 
-├── analysis/                # MATLAB scripts to process raw data
-    ├── Exp1_analysis_script_final.m
-    ├── Exp2_analysis_script_final.m
-    ├── Exp3_analysis_script_final.m
-├── plotting/
-    ├── make_figures_4_5.py  # Python script to generate figures
-├── data/
-    ├── raw/                 # Place Dryad raw data here
-    ├── processed/           # Processed .csv output files
-├── figures/                 # Generated figures (output)
-└── README.md
+├── analysis/                # MATLAB scripts to process raw data  
+    ├── Exp1_analysis_script_final.m  
+    ├── Exp2_analysis_script_final.m  
+    ├── Exp3_analysis_script_final.m  
+├── plotting/  
+    ├── make_figures_4_5.py  # Python script to generate figures  
+├── data/  
+    ├── raw/                 # Place Dryad raw data here  
+    ├── processed/           # Processed .csv output files  
+├── figures/                 # Generated figures (output)  
+└── README.md  
 
 
 Calculate percent change from baseline for each:
