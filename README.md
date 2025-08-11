@@ -45,7 +45,7 @@ Required to run the data preprocessing scripts for each experiment
 ``` 
 
 **Step 1 — Download the Data**
-Download the raw dataset from Dryad: https://doi.org/10.7554/elife.92088.2
+Download the raw dataset from Dryad: see link above
 
 Extract the contents into a folder called data/raw within this repository.
 
