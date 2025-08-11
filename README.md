@@ -37,7 +37,7 @@ Step 2 — Run the Analysis Scripts
 The analysis scripts will:
 
 Load the raw Dryad data
-* You will need to change the CD to the folder containing Dryad data files*
+* download the Dryad files to the data/raw datafolder *
 
 Repository Structure
 
@@ -67,9 +67,9 @@ Subject
 Save the output as .csv files for each experiment
 
 Output:
-mep_percent_change_Exp1.csv
-mep_percent_change_Exp2.csv
-mep_percent_change_Exp3.csv
+mep_percent_change_Exp1.csv  
+mep_percent_change_Exp2.csv  
+mep_percent_change_Exp3.csv  
 
 These will be saved in the .../data/processed/ directory.
 
