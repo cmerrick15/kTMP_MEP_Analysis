@@ -9,7 +9,7 @@ Analysis scripts: Process raw data to calculate percent change from baseline for
 
 Plotting scripts: Use the processed .csv files to reproduce Figures 4 and 5 as presented in the paper.
 
-**Software Requirements**
+**Software Requirements**  
 PYTHON 
 Python version: 3.8.8
 
