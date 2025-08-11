@@ -41,7 +41,7 @@ Load the raw Dryad data
 
 Repository Structure
 
-<pre> ``` your-repo-name/ ├── data/ │ ├── processed/ │ └── raw/ ├── analysis/ │ ├── experiment1.m │ ├── experiment2.m │ └── experiment3.m ├── figures/ │ ├── figure4.py │ └── figure5.py └── README.md ``` </pre>
+``` your-repo-name/ ├── data/ │ ├── processed/ │ └── raw/ ├── analysis/ │ ├── experiment1.m │ ├── experiment2.m │ └── experiment3.m ├── figures/ │ ├── figure4.py │ └── figure5.py └── README.md ``` 
 
 Calculate percent change from baseline for each:
 
