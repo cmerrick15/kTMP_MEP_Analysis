@@ -51,7 +51,8 @@ Repository Structure
   ├── Exp3_analysis_script_final.m
 ├── plotting/
 ├── Reproduce_eLife_Figures4_5.ipynb
-└── README.md ``` 
+└── README.md
+``` 
 
 Calculate percent change from baseline for each:
 
