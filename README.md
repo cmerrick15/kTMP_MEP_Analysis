@@ -92,7 +92,7 @@ Save them as .png and .pdf in the figures/ directory
 Citation
 If you use this code, please cite our paper:
 
-Labruna Ludovica, Merrick Christina, Peterchev Angel V, Inglis Ben, Ivry Richard B, Sheltraw Daniel (2024) Kilohertz Transcranial Magnetic Perturbation (kTMP): A New Non-invasive Method to Modulate Cortical Excitability eLife 13:RP92088
+Labruna Ludovica, Merrick Christina, Peterchev Angel V, Inglis Ben, Ivry Richard B, Sheltraw Daniel (2024) Kilohertz Transcranial   Magnetic Perturbation (kTMP): A New Non-invasive Method to Modulate Cortical Excitability eLife 13:RP92088
 
 https://doi.org/10.7554/eLife.92088.2
 
