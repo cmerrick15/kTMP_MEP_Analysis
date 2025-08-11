@@ -45,9 +45,13 @@ Repository Structure
 ├── data/ 
   ├── processed/
   ├── raw/
-├── analysis/ │
-  ├── experiment1.m │
-  ├── experiment2.m │ └── experiment3.m ├── figures/ │ ├── figure4.py │ └── figure5.py └── README.md ``` 
+├── analysis/ 
+  ├── Exp1_analysis_script_final.m
+  ├── Exp2_analysis_script_final.m
+  ├── Exp3_analysis_script_final.m
+├── plotting/
+├── Reproduce_eLife_Figures4_5.ipynb
+└── README.md ``` 
 
 Calculate percent change from baseline for each:
 
