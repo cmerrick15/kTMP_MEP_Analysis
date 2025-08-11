@@ -28,7 +28,7 @@ Version: R2018a
 
 Required to run the data preprocessing scripts for each experiment
 
-Repository Structure
+**Repository Structure**
 
 ``` kTMP_MEP_Analysis/
 ├── data/ 
@@ -43,12 +43,12 @@ Repository Structure
 └── README.md
 ``` 
 
-Step 1 — Download the Data
+**Step 1 — Download the Data**
 Download the raw dataset from Dryad: https://doi.org/10.7554/elife.92088.2
 
 Extract the contents into a folder called data/raw within this repository.
 
-Step 2 — Run the Analysis Scripts
+**Step 2 — Run the Analysis Scripts**
 The analysis scripts will:
 
 Calculate percent change from baseline for each:
@@ -66,7 +66,7 @@ mep_percent_change_Exp3.csv
 
 These will be saved in the .../data/processed/ directory.
 
-Step 3 — Generate Figures 4 and 5
+**Step 3 — Generate Figures 4 and 5**
 Run the Python script to load the .csv files and generate the figures.
 
 Example (Python):
