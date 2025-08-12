@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "Replication code and data for eLife paper: Kilohertz Transcranial Magnetic Perturbation (kTMP): A new non-invasive method to modulate cortical excitability"
+title: "Replication code for eLife paper: Kilohertz Transcranial Magnetic Perturbation (kTMP): A new non-invasive method to modulate cortical excitability"
 authors:
   - family-names: "Merrick"
     given-names: "Christina M."
