@@ -76,7 +76,8 @@ Load the processed .csv files
 Average across blocks for each subject for each condition and TMS protocol   
 Generate Figure 4 and Figure 5  
 
-Save them as .png and .pdf in the figures/ directory
+Save them as .png and .pdf in the figures/ directory  
+The code will create a new folder called figures if one is not already created
 
 
 Citation
