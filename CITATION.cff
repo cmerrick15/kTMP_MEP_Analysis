@@ -5,7 +5,15 @@ authors:
   - family-names: "Merrick"
     given-names: "Christina"
   - family-names: "Labruna", "Peterchev", "Inglis", "Ivry", "Sheltraw"
-    given-names: "Ludovica", "Angel", "Ben", "Richard", "Daniel"
+    given-names: "Ludovica"
+  - family-names: "Peterchev"
+    given-names: "Angel"
+  - family-names: "Inglis",
+    given-names: "Ben"
+  - family-names:  "Ivry"
+    given-names: "Richard"
+  - family-names: "Sheltraw"
+    given-names: "Daniel"
 date-released: 2025-08-11
 version: "1.0.0"
 doi: "10.5061/dryad.qz612jmsh"
