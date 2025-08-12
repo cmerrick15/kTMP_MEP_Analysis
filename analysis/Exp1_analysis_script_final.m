@@ -1,5 +1,5 @@
 %% EXP3 MULTI-PARTICIPANT ANALYSIS (Using sub, session, condition)
-cd('/Users/christinamerrick/Desktop/MT/kTMP_eLife_paper/data_to_publish/Exp1')
+cd('../data/raw')
 
 % Load data
 opts = detectImportOptions('Exp1.csv');
@@ -186,8 +186,23 @@ for p = 1:length(participants)
     end
 end
 
+% === Set output directory relative to script location ===
+
+% Get path to project root
+this_file_path = mfilename('fullpath');
+[script_folder, ~, ~] = fileparts(this_file_path);
+project_root = fileparts(script_folder);
+
+% Now set output path
+output_dir = fullfile(project_root, 'data', 'processed');
+
+if ~exist(output_dir, 'dir')
+    mkdir(output_dir);
+end
+
+
 % Convert to table and save
 results_table = cell2table(results, ...
     'VariableNames', {'sub','condition','session','tms_protocol','post_block','percent_change'});
 
-writetable(results_table, 'mep_percent_change_Exp1.csv');
+writetable(results_table, [output_dir '/' 'mep_percent_change_Exp1.csv']);
