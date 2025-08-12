@@ -1,1 +1,12 @@
-
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Replication code and data for eLife paper: [Insert Paper Title Here]"
+authors:
+  - family-names: "Merrick"
+    given-names: "Christina"
+  - family-names: "[CoauthorLastName]"
+    given-names: "[CoauthorFirstName]"
+date-released: 2025-08-11
+version: "1.0.0"
+doi: "10.5281/zenodo.xxxxx"  # Optional if you archive in Zenodo
+url: "https://github.com/[your-username]/[your-repo]"
