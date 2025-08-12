@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "Replication code and data for eLife paper: [Insert Paper Title Here]"
+title: "Replication code and data for eLife paper: Kilohertz Transcranial magnetic perturbation (kTMP): A new non-invasive method to modulate cortical excitability"
 authors:
   - family-names: "Merrick"
     given-names: "Christina"
-  - family-names: "[CoauthorLastName]"
-    given-names: "[CoauthorFirstName]"
+  - family-names: "Labruna", "Peterchev", "Inglis", "Ivry", "Sheltraw"
+    given-names: "Ludovica", "Angel", "Ben", "Richard", "Daniel"
 date-released: 2025-08-11
 version: "1.0.0"
-doi: "https://datadryad.org/dataset/doi:10.5061/dryad.qz612jmsh"
+doi: "10.5061/dryad.qz612jmsh"
 url: "https://github.com/cmerrick15/kTMP_MEP_Analysis"
