@@ -8,5 +8,5 @@ authors:
     given-names: "[CoauthorFirstName]"
 date-released: 2025-08-11
 version: "1.0.0"
-doi: "10.5281/zenodo.xxxxx"  # Optional if you archive in Zenodo
-url: "https://github.com/[your-username]/[your-repo]"
+doi: "https://datadryad.org/dataset/doi:10.5061/dryad.qz612jmsh"
+url: "https://github.com/cmerrick15/kTMP_MEP_Analysis"
